@@ -16,7 +16,7 @@ export function Form () {
     return (
         <div>
             <div>
-                <input type="text" onBlur={(e: any) => setZipcode(e.target.value)} placeholder="Zipcode"/>
+                <input type="text" onBlur={(e) => setZipcode(e.target.value)} placeholder="Zipcode"/>
             </div>
             <div>
                 <input type="text" value={address.street} placeholder="Street"/>
